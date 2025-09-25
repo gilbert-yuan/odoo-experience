@@ -1,4 +1,5 @@
 ## odoo18  此代码片段支持字段为图片链接的形式。二进制文件形式需要改写
+### 仅包含主要功能，图片下载功能未包含
 ```python
 class ExportXlsxWriterNew(ExportXlsxWriter):
     def write_cell(self, row, column, cell_value):
